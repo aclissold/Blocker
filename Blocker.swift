@@ -1,7 +1,7 @@
 import Foundation
 
 let runLoop = NSRunLoop.currentRunLoop()
-let distantFuture = NSDate.distantFuture() as! NSDate
+let distantFuture = NSDate.distantFuture()
 
 var blocking = false
 
